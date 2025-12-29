@@ -1,0 +1,9 @@
+.nav-link {
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.nav-link h5 {
+  margin: 0;
+  pointer-events: none;
+}

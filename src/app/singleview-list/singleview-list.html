@@ -1,0 +1,14 @@
+<ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <div class="ms-auto">
+              <a class="nav-link" routerLink="/singleview-list"><h2>ProductDetails</h2></a>
+            </div>
+          </li>
+        </ul>
+<div class="card-container">
+    <div class="card">
+        <img [src]="singleproduct?.image" alt="Product Image" class="product-image">
+        <h2> {{singleproduct?.title}}</h2>
+        <p>{{singleproduct?.price}}</p>
+    </div>
+</div>

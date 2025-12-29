@@ -1,0 +1,11 @@
+<div class="card-container">
+    @for(item of product;track item.id)
+    {
+       <div class="card">
+        <img src="{{item.image}}" alt="Product Image" class="product-image">
+        <h2>{{item.title}}</h2>
+        <p>{{item.price}}</p>
+        <a [routerLink]="['/singleview-list',item.id]">Go to</a>
+       </div>
+    }
+</div>
